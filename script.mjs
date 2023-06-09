@@ -68,8 +68,8 @@ const intro = "Here are my social links:";
 const tumblr = chalk.hex("#cad9ff")(
   "Tumblr: " + chalk.reset("https://xiacodes.tumblr.com/")
 );
-const insta = chalk.hex("#bcffb7")(
-  "Insta: " + chalk.reset("https://instagram.com/_xiacodes_")
+const github = chalk.hex("#bcffb7")(
+  "GitHub: " + chalk.reset("https://github.com/xiacodes")
 );
 const linkedin = chalk.hex("#ffcbb7")(
   "LinkedIn: " + chalk.reset("https://linkedin.com/in/isabelle-zennah")
@@ -84,7 +84,7 @@ log("     .-=-.   .-=-.    " );
 log("    ( 0   \\V/   0 )                " + intro);
 log("     \\     O     /");
 log("      `.__ # __.`           " + star + tumblr);
-log("       .'  #  '.           " + star + insta);
+log("       .'  #  '.           " + star + github);
 log("      (o  /#\\  o)     " + star + linkedin);
 log("       )/'   '\\(");
 log("      (         )           " + star + chalk.italic.dim("Let's connect and have some fun~! ") + star);
