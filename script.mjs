@@ -84,7 +84,7 @@ log("     .-=-.   .-=-.    " );
 log("    ( 0   \\V/   0 )                " + intro);
 log("     \\     O     /");
 log("      `.__ # __.`           " + star + tumblr);
-log("       .'  #  '.        " + star + insta);
+log("       .'  #  '.           " + star + insta);
 log("      (o  /#\\  o)     " + star + linkedin);
 log("       )/'   '\\(");
 log("      (         )           " + star + chalk.italic.dim("Let's connect and have some fun~! ") + star);
