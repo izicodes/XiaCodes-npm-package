@@ -1,0 +1,25 @@
+{
+  "name": "xiacodes-business-card",
+  "version": "1.0.0",
+  "description": "This is XiaCode's social links card (digital business card) that outputs to the terminal using npx ☆",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiacodes/XiaCodes-npm-package.git"
+  },
+  "keywords": [
+    "social",
+    "links",
+    "package",
+    "beginner"
+  ],
+  "author": "xiacodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiacodes/XiaCodes-npm-package/issues"
+  },
+  "homepage": "https://github.com/xiacodes/XiaCodes-npm-package#readme"
+}
