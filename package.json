@@ -17,7 +17,7 @@
     "beginner"
   ],
   "bin": {
-    "xz": "./script.mjs"
+    "xiacodes": "./script.mjs"
   },
   "author": "xiacodes",
   "license": "ISC",
