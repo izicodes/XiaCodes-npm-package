@@ -57,21 +57,34 @@
 import chalk from "chalk";
 
 const log = console.log;
+
+const star = chalk.hex("#e9d795")("★ ");
+
 const message = chalk.hex("#e995cb")(
   "~  " + chalk.underline("Welcome to XiaCodes' Socials Card package~!") + "  ~"
 );
-// tumblr, instgram, linkedin, github
+const intro = "Here are my social links:";
 
-// message = (chalk.hex("#e995cb")(message));
+const tumblr = chalk.hex("#cad9ff")(
+  "Tumblr: " + chalk.reset("https://xiacodes.tumblr.com/")
+);
+const insta = chalk.hex("#bcffb7")(
+  "Insta: " + chalk.reset("https://instagram.com/_xiacodes_")
+);
+const linkedin = chalk.hex("#ffcbb7")(
+  "LinkedIn: " + chalk.reset("https://linkedin.com/in/isabelle-zennah")
+);
+// tumblr, instgram, linkedin, github, twitter
+
+// message = (chalk.hex("#8e99e3")(message));
 
 log("\n");
-log("     .-=-.   .-=-.    " + message);
-log("    ( 0   \\V/   0 )");
+log("                       " + message);
+log("     .-=-.   .-=-.    " );
+log("    ( 0   \\V/   0 )                " + intro);
 log("     \\     O     /");
-log("      `.__ # __.`");
-log("       .'  #  '.");
-log("      (o  /#\\  o)");
+log("      `.__ # __.`           " + star + tumblr);
+log("       .'  #  '.        " + star + insta);
+log("      (o  /#\\  o)     " + star + linkedin);
 log("       )/'   '\\(");
-log("      (         )");
-
-
+log("      (         )           " + star + chalk.italic.dim("Let's connect and have some fun~! ") + star);
