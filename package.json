@@ -16,10 +16,17 @@
     "package",
     "beginner"
   ],
+  "bin": {
+    "xz": "./script.mjs"
+  },
   "author": "xiacodes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xiacodes/XiaCodes-npm-package/issues"
   },
-  "homepage": "https://github.com/xiacodes/XiaCodes-npm-package#readme"
+  "homepage": "https://github.com/xiacodes/XiaCodes-npm-package#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "readline": "^1.3.0"
+  }
 }
